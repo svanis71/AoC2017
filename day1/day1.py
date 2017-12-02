@@ -2,7 +2,7 @@
 
 class Day1:
     def __init__(self):
-        with open('indata_day1.txt', 'r') as myfile:
+        with open('day1/indata_day1.txt', 'r') as myfile:
             self.data=myfile.read().replace('\n', '')
 
     def split_list(self, a_list):
