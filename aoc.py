@@ -2,6 +2,8 @@
 
 from day1.day1 import Day1
 from day2.day2 import Day2
+from day3.day3 import Day3
+from day4.day4 import Day4
 
 if __name__ == '__main__':
     day1 = Day1()
@@ -19,3 +21,19 @@ if __name__ == '__main__':
     print("Day2 pt 2: ")
     print("==============")
     print("Answer is: %d" % day2.part2())
+
+    day3 = Day3()
+    print("Day3 pt 1: ")
+    print("==============")
+    print("Answer is: %d" % day3.part1())
+    print("Day3 pt 2: ")
+    print("==============")
+    print("Answer is: %d" % day3.part2())
+
+    day4 = Day4()
+    print("Day4 pt 1: ")
+    print("==============")
+    print("Answer is: %d" % day4.part1())
+    print("Day4 pt 2: ")
+    print("==============")
+    print("Answer is: %d" % day4.part2())
