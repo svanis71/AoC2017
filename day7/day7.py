@@ -16,6 +16,8 @@ class Day7:
 
         return root
 
+    def getWeight(self, pgm):
+        return
     def part2(self):
         root = 'cyrupz'
         return 0

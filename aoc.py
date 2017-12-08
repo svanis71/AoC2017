@@ -7,6 +7,7 @@ from day4.day4 import Day4
 from day5.day5 import Day5
 from day6.day6 import Day6
 from day7.day7 import Day7
+from day8.day8 import Day8
 
 if __name__ == '__main__':
     day1 = Day1()
@@ -63,4 +64,13 @@ if __name__ == '__main__':
     print("Answer is: %s" % day7.part1())
     print("Day7 pt 2: ")
     print("==============")
-    print("Answer is: %d" % day7.part2())
+    print("Too slow")
+    #print("Answer is: %d" % day7.part2())
+
+    day8 = Day8()
+    print("Day8 pt 1: ")
+    print("==============")
+    print("Answer is: %s" % day8.part1())
+    print("Day8 pt 2: ")
+    print("==============")
+    print("Answer is: %d" % day8.part2())
