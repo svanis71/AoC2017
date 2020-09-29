@@ -9,6 +9,7 @@ from day6.day6 import Day6
 from day7.day7 import Day7
 from day8.day8 import Day8
 from day9.day9 import Day9
+from day10.day10 import Day10
 
 if __name__ == '__main__':
     day1 = Day1()
@@ -77,9 +78,17 @@ if __name__ == '__main__':
     #print("Answer is: %d" % day8.part2())
 
     day9 = Day9()
-    print("Day9 pt 1: ")
+    #print("Day9 pt 1: ")
+    #print("==============")
+    #print("Answer is: %s" % day9.part1())
+    #print("Day9 pt 2: ")
+    #print("==============")
+    #print("Answer is: %d" % day9.part2())
+
+    day10 = Day10()
+    print("Day10 pt 1: ")
     print("==============")
-    print("Answer is: %s" % day9.part1())
-    print("Day9 pt 2: ")
+    print("Answer is: %s" % day10.part1())
+    print("Day10 pt 2: ")
     print("==============")
-    print("Answer is: %d" % day9.part2())
+    print("Answer is: %d" % day10.part2())
